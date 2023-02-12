@@ -1,22 +1,24 @@
 // Iteration 1: Names and Input
-
-
-// Iteration 2: Conditionals
-
-
-// Iteration 3: Loops
 const hacker1 = "max";
 const hacker2 = "nacho";
 
+
+// Iteration 2: Conditionals
 if ( hacker1.length > hacker2.length){
-    console.log(`The driver has the longest name, it has  ${hacker1.length} characters`)
+  console.log(`The driver has the longest name, it has  ${hacker1.length} characters`)
 } else if (hacker1.length < hacker2.length ){
-    console.log(`The navigator has the longest name, it has ${hacker2.length} characters`)
+  console.log(`The navigator has the longest name, it has ${hacker2.length} characters`)
 
 }else{
-    console.log(`Wow, you both have equally long names, ${hacker2.length} characters!`)
+  console.log(`Wow, you both have equally long names, ${hacker2.length} characters!`)
 
 }
+
+
+// Iteration 3: Loops
+
+
+
 let driver=" ";
 for(let i=0; i < hacker1.length; i++) {
   driver+= hacker1[i].toUpperCase() + " ";
